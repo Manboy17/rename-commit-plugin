@@ -21,8 +21,8 @@
     <depends>Git4Idea</depends>
 
     <actions>
-        <action id="RenameCommitAction" class="RenameCommitAction" text="Rename Commit" description="Rename the current Git commit">
-            <add-to-group group-id="ToolbarRunGroup" anchor="last" />
+        <action id="actions.RenameCommitAction" class="actions.RenameCommitAction" text="Rename Commit" description="Rename the current Git commit">
+            <add-to-group group-id="Git.Log.ContextMenu" anchor="first" />
         </action>
     </actions>
 
